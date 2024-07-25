@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar: React.FC = () => {
@@ -7,9 +8,9 @@ const Navbar: React.FC = () => {
             <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
                 <div className="container-fluid navbar-nav-wrapper">
                     <div className="navbar-nav-top">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" to="/">
                             <img src="../Logotipo-Macropay.svg" alt="MacroPay"></img>
-                        </a>
+                        </Link>
                         <div className="d-flex">
                             <button className="btn btn-warning me-2" type="button">Crea Tu Cuenta</button>
                             <button className="btn btn-outline-light" type="button">Iniciar sesión</button>

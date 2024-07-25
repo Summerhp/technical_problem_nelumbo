@@ -15,14 +15,14 @@ const Footer: React.FC = () => {
                             </div>
                         </form>
                         <div className="d-flex align-items-center mt-3">
-                            <img src="../Logotipo-Macropay.svg" alt="MacroPay" className="me-3"/>
-                            <div>
+                            <img src="../Logotipo-Macropay.svg" alt="MacroPay" className="me-3" />
+                            <div className='col'>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Envios y devoluciones</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
                                 </ul>
-                            </div>
-                            <div>
+                            </div>                            
+                            <div className='col'>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Aviso de privacidad</a></li>
                                     <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Términos y condiciones</a></li>
@@ -31,10 +31,10 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                     <div className="col-md-2 text-center">
-                        <img src="../Happy_face.svg" alt="MacroPay" width="500" className="img-fluid"/>
+                        <img src="../Happy_face.svg" alt="MacroPay" className="img-fluid w-100" style={{ maxHeight: '100%' }} />
                     </div>
-                    <div className="col-md-4">
-                        <h5>Conversemos</h5>
+                    <div className="col-md-4 text-center">
+                        <h5>Conversemos!</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Loren ipsum dolor sit amet</a></li>
                         </ul>

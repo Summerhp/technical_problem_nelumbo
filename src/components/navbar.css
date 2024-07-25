@@ -1,7 +1,9 @@
 .custom-navbar {
     background-color: #0348B7;
 }
-
+.custom-navbar2 {
+    background-color: white;
+}
 .custom-navbar2 .navbar-brand {
     color: white;
     font-weight: bold;
@@ -44,13 +46,9 @@
     align-items: center;
     width: 100%;
     background-color: #0347B6;
-    padding: 10px 0;
 }
 
 .navbar-nav-bottom {
     justify-content: flex-start;
     width: 100%;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 4px;
 }
